@@ -1,0 +1,72 @@
+2025-03-09 19:00:36,551 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-09 19:00:36,551 - logger - INFO - without init weights
+2025-03-09 19:00:51,246 - logger - INFO - Early stopping!
+2025-03-09 19:00:51,402 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:00:51,402 - logger - INFO - Score (Relative Error): 0.0355
+2025-03-09 19:00:51,402 - logger - INFO - Score (MAE): 0.0160
+2025-03-09 19:00:51,402 - logger - INFO - Score (RMSE): 0.0340
+2025-03-09 19:01:02,190 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-09 19:01:02,191 - logger - INFO - without init weights
+2025-03-09 19:01:17,144 - logger - INFO - Early stopping!
+2025-03-09 19:01:17,303 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:01:17,303 - logger - INFO - Score (Relative Error): 0.0391
+2025-03-09 19:01:17,303 - logger - INFO - Score (MAE): 0.0226
+2025-03-09 19:01:17,303 - logger - INFO - Score (RMSE): 0.0341
+2025-03-09 19:01:21,282 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-09 19:01:21,282 - logger - INFO - without init weights
+2025-03-09 19:01:30,685 - logger - INFO - Early stopping!
+2025-03-09 19:01:30,830 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:01:30,830 - logger - INFO - Score (Relative Error): 0.0372
+2025-03-09 19:01:30,830 - logger - INFO - Score (MAE): 0.0174
+2025-03-09 19:01:30,830 - logger - INFO - Score (RMSE): 0.0343
+2025-03-09 19:01:34,549 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-09 19:01:34,549 - logger - INFO - without init weights
+2025-03-09 19:01:52,131 - logger - INFO - Early stopping!
+2025-03-09 19:01:52,331 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:01:52,331 - logger - INFO - Score (Relative Error): 0.0411
+2025-03-09 19:01:52,331 - logger - INFO - Score (MAE): 0.0224
+2025-03-09 19:01:52,331 - logger - INFO - Score (RMSE): 0.0348
+2025-03-09 19:01:55,403 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-09 19:01:55,403 - logger - INFO - without init weights
+2025-03-09 19:02:09,815 - logger - INFO - Early stopping!
+2025-03-09 19:02:09,997 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:02:09,997 - logger - INFO - Score (Relative Error): 0.0413
+2025-03-09 19:02:09,997 - logger - INFO - Score (MAE): 0.0212
+2025-03-09 19:02:09,997 - logger - INFO - Score (RMSE): 0.0360
+2025-03-09 19:03:26,732 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-09 19:03:26,733 - logger - INFO - with init weights mean=0.0, std=0.02
+2025-03-09 19:03:58,971 - logger - INFO - Early stopping!
+2025-03-09 19:03:59,175 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:03:59,175 - logger - INFO - Score (Relative Error): 0.0488
+2025-03-09 19:03:59,175 - logger - INFO - Score (MAE): 0.0249
+2025-03-09 19:03:59,175 - logger - INFO - Score (RMSE): 0.0420
+2025-03-09 19:04:04,312 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-09 19:04:04,312 - logger - INFO - with init weights mean=0.0, std=0.02
+2025-03-09 19:04:28,766 - logger - INFO - Early stopping!
+2025-03-09 19:04:28,911 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:04:28,911 - logger - INFO - Score (Relative Error): 0.0492
+2025-03-09 19:04:28,911 - logger - INFO - Score (MAE): 0.0228
+2025-03-09 19:04:28,911 - logger - INFO - Score (RMSE): 0.0460
+2025-03-09 19:04:35,110 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-09 19:04:35,110 - logger - INFO - with init weights mean=0.0, std=0.02
+2025-03-09 19:04:54,600 - logger - INFO - Early stopping!
+2025-03-09 19:04:54,755 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:04:54,755 - logger - INFO - Score (Relative Error): 0.0510
+2025-03-09 19:04:54,755 - logger - INFO - Score (MAE): 0.0250
+2025-03-09 19:04:54,755 - logger - INFO - Score (RMSE): 0.0466
+2025-03-09 19:05:00,689 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-09 19:05:00,690 - logger - INFO - with init weights mean=0.0, std=0.02
+2025-03-09 19:05:36,750 - logger - INFO - Early stopping!
+2025-03-09 19:05:36,941 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:05:36,941 - logger - INFO - Score (Relative Error): 0.0483
+2025-03-09 19:05:36,941 - logger - INFO - Score (MAE): 0.0243
+2025-03-09 19:05:36,941 - logger - INFO - Score (RMSE): 0.0422
+2025-03-09 19:05:41,566 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-09 19:05:41,566 - logger - INFO - with init weights mean=0.0, std=0.02
+2025-03-09 19:05:59,703 - logger - INFO - Early stopping!
+2025-03-09 19:05:59,843 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:05:59,843 - logger - INFO - Score (Relative Error): 0.0495
+2025-03-09 19:05:59,843 - logger - INFO - Score (MAE): 0.0224
+2025-03-09 19:05:59,843 - logger - INFO - Score (RMSE): 0.0482
+2025-03-09 19:31:57,657 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-09 19:31:57,657 - logger - INFO - with init weights mean=0.0, std=0.02

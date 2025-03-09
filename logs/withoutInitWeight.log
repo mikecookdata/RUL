@@ -1,0 +1,156 @@
+ ~/Desktop/github/RUL_DIY  main !2 ?4  /Users/michael/miniconda3/envs/py310/bin/python /Users/michael/Desktop/github/RUL_DIY/RUL_diy.py                                                                                INT ✘  py310   19:00:34 
+2025-03-09 19:00:36,551 - logger - INFO - ++++++  Using device: mps   ++++++
+INFO:logger:++++++  Using device: mps   ++++++
+2025-03-09 19:00:36,551 - logger - INFO - without init weights
+INFO:logger:without init weights
+Epoch 1/1000, Train Loss: 0.4368, Validation Loss: 0.3223
+Epoch 2/1000, Train Loss: 0.0605, Validation Loss: 0.1971
+Epoch 3/1000, Train Loss: 0.0382, Validation Loss: 0.1123
+Epoch 4/1000, Train Loss: 0.0384, Validation Loss: 0.0808
+Epoch 5/1000, Train Loss: 0.0336, Validation Loss: 0.0685
+Epoch 6/1000, Train Loss: 0.0344, Validation Loss: 0.1109
+Epoch 7/1000, Train Loss: 0.0283, Validation Loss: 0.0763
+Epoch 8/1000, Train Loss: 0.0291, Validation Loss: 0.1118
+Epoch 9/1000, Train Loss: 0.0316, Validation Loss: 0.0496
+Epoch 10/1000, Train Loss: 0.0328, Validation Loss: 0.1065
+Epoch 11/1000, Train Loss: 0.0292, Validation Loss: 0.0692
+Epoch 12/1000, Train Loss: 0.0255, Validation Loss: 0.0618
+Epoch 00013: reducing learning rate of group 0 to 5.0000e-04.
+Epoch 13/1000, Train Loss: 0.0266, Validation Loss: 0.0875
+2025-03-09 19:00:51,246 - logger - INFO - Early stopping!
+INFO:logger:Early stopping!
+2025-03-09 19:00:51,402 - logger - INFO - SEQUENCE_SIZE: 32
+INFO:logger:SEQUENCE_SIZE: 32
+2025-03-09 19:00:51,402 - logger - INFO - Score (Relative Error): 0.0355
+INFO:logger:Score (Relative Error): 0.0355
+2025-03-09 19:00:51,402 - logger - INFO - Score (MAE): 0.0160
+INFO:logger:Score (MAE): 0.0160
+2025-03-09 19:00:51,402 - logger - INFO - Score (RMSE): 0.0340
+INFO:logger:Score (RMSE): 0.0340
+ ~/Desktop/github/RUL_DIY  main !2 ?4  /Users/michael/miniconda3/envs/py310/bin/python /Users/michael/Desktop/github/RUL_DIY/RUL_diy.py                                                                              ✔  17s  py310   19:00:51 
+2025-03-09 19:01:02,190 - logger - INFO - ++++++  Using device: mps   ++++++
+INFO:logger:++++++  Using device: mps   ++++++
+2025-03-09 19:01:02,191 - logger - INFO - without init weights
+INFO:logger:without init weights
+Epoch 1/1000, Train Loss: 0.6129, Validation Loss: 0.2532
+Epoch 2/1000, Train Loss: 0.0683, Validation Loss: 0.1113
+Epoch 3/1000, Train Loss: 0.0457, Validation Loss: 0.0711
+Epoch 4/1000, Train Loss: 0.0364, Validation Loss: 0.0529
+Epoch 5/1000, Train Loss: 0.0341, Validation Loss: 0.0579
+Epoch 6/1000, Train Loss: 0.0371, Validation Loss: 0.0565
+Epoch 7/1000, Train Loss: 0.0343, Validation Loss: 0.0653
+Epoch 00008: reducing learning rate of group 0 to 5.0000e-04.
+Epoch 8/1000, Train Loss: 0.0307, Validation Loss: 0.0546
+Epoch 9/1000, Train Loss: 0.0282, Validation Loss: 0.0463
+Epoch 10/1000, Train Loss: 0.0283, Validation Loss: 0.0476
+Epoch 11/1000, Train Loss: 0.0258, Validation Loss: 0.0459
+Epoch 12/1000, Train Loss: 0.0243, Validation Loss: 0.0511
+Epoch 13/1000, Train Loss: 0.0272, Validation Loss: 0.0572
+Epoch 14/1000, Train Loss: 0.0241, Validation Loss: 0.0514
+Epoch 00015: reducing learning rate of group 0 to 2.5000e-04.
+Epoch 15/1000, Train Loss: 0.0270, Validation Loss: 0.0831
+2025-03-09 19:01:17,144 - logger - INFO - Early stopping!
+INFO:logger:Early stopping!
+2025-03-09 19:01:17,303 - logger - INFO - SEQUENCE_SIZE: 32
+INFO:logger:SEQUENCE_SIZE: 32
+2025-03-09 19:01:17,303 - logger - INFO - Score (Relative Error): 0.0391
+INFO:logger:Score (Relative Error): 0.0391
+2025-03-09 19:01:17,303 - logger - INFO - Score (MAE): 0.0226
+INFO:logger:Score (MAE): 0.0226
+2025-03-09 19:01:17,303 - logger - INFO - Score (RMSE): 0.0341
+INFO:logger:Score (RMSE): 0.0341
+ ~/Desktop/github/RUL_DIY  main !2 ?4  /Users/michael/miniconda3/envs/py310/bin/python /Users/michael/Desktop/github/RUL_DIY/RUL_diy.py                                                                              ✔  17s  py310   19:01:17 
+2025-03-09 19:01:21,282 - logger - INFO - ++++++  Using device: mps   ++++++
+INFO:logger:++++++  Using device: mps   ++++++
+2025-03-09 19:01:21,282 - logger - INFO - without init weights
+INFO:logger:without init weights
+Epoch 1/1000, Train Loss: 0.2783, Validation Loss: 0.2178
+Epoch 2/1000, Train Loss: 0.0568, Validation Loss: 0.1187
+Epoch 3/1000, Train Loss: 0.0372, Validation Loss: 0.0937
+Epoch 4/1000, Train Loss: 0.0358, Validation Loss: 0.0837
+Epoch 5/1000, Train Loss: 0.0303, Validation Loss: 0.0689
+Epoch 6/1000, Train Loss: 0.0319, Validation Loss: 0.0658
+Epoch 7/1000, Train Loss: 0.0314, Validation Loss: 0.0677
+Epoch 8/1000, Train Loss: 0.0271, Validation Loss: 0.0729
+Epoch 9/1000, Train Loss: 0.0288, Validation Loss: 0.0879
+Epoch 00010: reducing learning rate of group 0 to 5.0000e-04.
+Epoch 10/1000, Train Loss: 0.0259, Validation Loss: 0.1074
+2025-03-09 19:01:30,685 - logger - INFO - Early stopping!
+INFO:logger:Early stopping!
+2025-03-09 19:01:30,830 - logger - INFO - SEQUENCE_SIZE: 32
+INFO:logger:SEQUENCE_SIZE: 32
+2025-03-09 19:01:30,830 - logger - INFO - Score (Relative Error): 0.0372
+INFO:logger:Score (Relative Error): 0.0372
+2025-03-09 19:01:30,830 - logger - INFO - Score (MAE): 0.0174
+INFO:logger:Score (MAE): 0.0174
+2025-03-09 19:01:30,830 - logger - INFO - Score (RMSE): 0.0343
+INFO:logger:Score (RMSE): 0.0343
+ ~/Desktop/github/RUL_DIY  main !2 ?4  /Users/michael/miniconda3/envs/py310/bin/python /Users/michael/Desktop/github/RUL_DIY/RUL_diy.py                                                                              ✔  12s  py310   19:01:31 
+2025-03-09 19:01:34,549 - logger - INFO - ++++++  Using device: mps   ++++++
+INFO:logger:++++++  Using device: mps   ++++++
+2025-03-09 19:01:34,549 - logger - INFO - without init weights
+INFO:logger:without init weights
+Epoch 1/1000, Train Loss: 0.7197, Validation Loss: 0.2016
+Epoch 2/1000, Train Loss: 0.0787, Validation Loss: 0.1599
+Epoch 3/1000, Train Loss: 0.0495, Validation Loss: 0.0873
+Epoch 4/1000, Train Loss: 0.0444, Validation Loss: 0.0970
+Epoch 5/1000, Train Loss: 0.0379, Validation Loss: 0.0746
+Epoch 6/1000, Train Loss: 0.0347, Validation Loss: 0.0849
+Epoch 7/1000, Train Loss: 0.0326, Validation Loss: 0.0628
+Epoch 8/1000, Train Loss: 0.0374, Validation Loss: 0.0944
+Epoch 9/1000, Train Loss: 0.0307, Validation Loss: 0.0561
+Epoch 10/1000, Train Loss: 0.0277, Validation Loss: 0.0515
+Epoch 11/1000, Train Loss: 0.0324, Validation Loss: 0.0583
+Epoch 12/1000, Train Loss: 0.0292, Validation Loss: 0.0599
+Epoch 13/1000, Train Loss: 0.0299, Validation Loss: 0.0666
+Epoch 00014: reducing learning rate of group 0 to 5.0000e-04.
+Epoch 14/1000, Train Loss: 0.0263, Validation Loss: 0.0596
+Epoch 15/1000, Train Loss: 0.0249, Validation Loss: 0.0507
+Epoch 16/1000, Train Loss: 0.0252, Validation Loss: 0.0507
+Epoch 17/1000, Train Loss: 0.0238, Validation Loss: 0.0514
+Epoch 18/1000, Train Loss: 0.0223, Validation Loss: 0.0653
+Epoch 19/1000, Train Loss: 0.0237, Validation Loss: 0.0692
+Epoch 00020: reducing learning rate of group 0 to 2.5000e-04.
+Epoch 20/1000, Train Loss: 0.0245, Validation Loss: 0.0645
+2025-03-09 19:01:52,131 - logger - INFO - Early stopping!
+INFO:logger:Early stopping!
+2025-03-09 19:01:52,331 - logger - INFO - SEQUENCE_SIZE: 32
+INFO:logger:SEQUENCE_SIZE: 32
+2025-03-09 19:01:52,331 - logger - INFO - Score (Relative Error): 0.0411
+INFO:logger:Score (Relative Error): 0.0411
+2025-03-09 19:01:52,331 - logger - INFO - Score (MAE): 0.0224
+INFO:logger:Score (MAE): 0.0224
+2025-03-09 19:01:52,331 - logger - INFO - Score (RMSE): 0.0348
+INFO:logger:Score (RMSE): 0.0348
+ ~/Desktop/github/RUL_DIY  main !2 ?4  /Users/michael/miniconda3/envs/py310/bin/python /Users/michael/Desktop/github/RUL_DIY/RUL_diy.py                                                                              ✔  20s  py310   19:01:52 
+2025-03-09 19:01:55,403 - logger - INFO - ++++++  Using device: mps   ++++++
+INFO:logger:++++++  Using device: mps   ++++++
+2025-03-09 19:01:55,403 - logger - INFO - without init weights
+INFO:logger:without init weights
+Epoch 1/1000, Train Loss: 0.7520, Validation Loss: 0.1790
+Epoch 2/1000, Train Loss: 0.0825, Validation Loss: 0.1659
+Epoch 3/1000, Train Loss: 0.0507, Validation Loss: 0.0645
+Epoch 4/1000, Train Loss: 0.0378, Validation Loss: 0.0628
+Epoch 5/1000, Train Loss: 0.0396, Validation Loss: 0.0730
+Epoch 6/1000, Train Loss: 0.0378, Validation Loss: 0.0687
+Epoch 7/1000, Train Loss: 0.0371, Validation Loss: 0.0610
+Epoch 8/1000, Train Loss: 0.0355, Validation Loss: 0.0917
+Epoch 9/1000, Train Loss: 0.0402, Validation Loss: 0.0516
+Epoch 10/1000, Train Loss: 0.0356, Validation Loss: 0.0686
+Epoch 11/1000, Train Loss: 0.0341, Validation Loss: 0.0498
+Epoch 12/1000, Train Loss: 0.0325, Validation Loss: 0.0799
+Epoch 13/1000, Train Loss: 0.0348, Validation Loss: 0.0743
+Epoch 14/1000, Train Loss: 0.0441, Validation Loss: 0.0918
+Epoch 00015: reducing learning rate of group 0 to 5.0000e-04.
+Epoch 15/1000, Train Loss: 0.0327, Validation Loss: 0.0789
+2025-03-09 19:02:09,815 - logger - INFO - Early stopping!
+INFO:logger:Early stopping!
+2025-03-09 19:02:09,997 - logger - INFO - SEQUENCE_SIZE: 32
+INFO:logger:SEQUENCE_SIZE: 32
+2025-03-09 19:02:09,997 - logger - INFO - Score (Relative Error): 0.0413
+INFO:logger:Score (Relative Error): 0.0413
+2025-03-09 19:02:09,997 - logger - INFO - Score (MAE): 0.0212
+INFO:logger:Score (MAE): 0.0212
+2025-03-09 19:02:09,997 - logger - INFO - Score (RMSE): 0.0360
+INFO:logger:Score (RMSE): 0.0360
+ ~/Desktop/github/RUL_DIY  main !2 ?4                                                                                                                                                                                ✔  16s  py310   19:02:10 
