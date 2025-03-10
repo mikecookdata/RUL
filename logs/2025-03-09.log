@@ -70,3 +70,108 @@
 2025-03-09 19:05:59,843 - logger - INFO - Score (RMSE): 0.0482
 2025-03-09 19:31:57,657 - logger - INFO - ++++++  Using device: mps   ++++++
 2025-03-09 19:31:57,657 - logger - INFO - with init weights mean=0.0, std=0.02
+2025-03-09 19:36:39,397 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:36:39,397 - logger - INFO - with init weights mean=0.0, std=0.02
+2025-03-09 19:36:43,760 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:36:52,055 - logger - INFO - Early stopping!
+2025-03-09 19:36:52,140 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:36:52,140 - logger - INFO - Score (Relative Error): 0.0564
+2025-03-09 19:36:52,140 - logger - INFO - Score (MAE): 0.0261
+2025-03-09 19:36:52,140 - logger - INFO - Score (RMSE): 0.0527
+2025-03-09 19:38:43,760 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:38:43,760 - logger - INFO - with init weights mean=0.0, std=0.02
+2025-03-09 19:38:43,760 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:38:53,029 - logger - INFO - Early stopping!
+2025-03-09 19:38:53,092 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:38:53,092 - logger - INFO - Score (Relative Error): 0.0583
+2025-03-09 19:38:53,092 - logger - INFO - Score (MAE): 0.0269
+2025-03-09 19:38:53,092 - logger - INFO - Score (RMSE): 0.0534
+2025-03-09 19:39:01,296 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:39:01,312 - logger - INFO - with init weights mean=0.0, std=0.02
+2025-03-09 19:39:01,312 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:39:14,397 - logger - INFO - Early stopping!
+2025-03-09 19:39:14,448 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:39:14,449 - logger - INFO - Score (Relative Error): 0.0569
+2025-03-09 19:39:14,449 - logger - INFO - Score (MAE): 0.0259
+2025-03-09 19:39:14,449 - logger - INFO - Score (RMSE): 0.0543
+2025-03-09 19:39:21,360 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:39:21,361 - logger - INFO - with init weights mean=0.0, std=0.02
+2025-03-09 19:39:21,361 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:39:27,408 - logger - INFO - Early stopping!
+2025-03-09 19:39:27,482 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:39:27,483 - logger - INFO - Score (Relative Error): 0.0709
+2025-03-09 19:39:27,483 - logger - INFO - Score (MAE): 0.0336
+2025-03-09 19:39:27,483 - logger - INFO - Score (RMSE): 0.0640
+2025-03-09 19:40:04,440 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:40:04,440 - logger - INFO - with init weights mean=0.0, std=0.02
+2025-03-09 19:40:04,441 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:40:18,999 - logger - INFO - Early stopping!
+2025-03-09 19:40:19,072 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:40:19,072 - logger - INFO - Score (Relative Error): 0.0575
+2025-03-09 19:40:19,072 - logger - INFO - Score (MAE): 0.0260
+2025-03-09 19:40:19,072 - logger - INFO - Score (RMSE): 0.0543
+2025-03-09 19:42:21,824 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:42:21,824 - logger - INFO - without init weights
+2025-03-09 19:42:21,824 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:42:30,289 - logger - INFO - Early stopping!
+2025-03-09 19:42:30,349 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:42:30,349 - logger - INFO - Score (Relative Error): 0.0557
+2025-03-09 19:42:30,350 - logger - INFO - Score (MAE): 0.0240
+2025-03-09 19:42:30,350 - logger - INFO - Score (RMSE): 0.0549
+2025-03-09 19:42:35,511 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:42:35,511 - logger - INFO - without init weights
+2025-03-09 19:42:35,511 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:42:40,997 - logger - INFO - Early stopping!
+2025-03-09 19:42:41,051 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:42:41,051 - logger - INFO - Score (Relative Error): 0.0495
+2025-03-09 19:42:41,051 - logger - INFO - Score (MAE): 0.0210
+2025-03-09 19:42:41,052 - logger - INFO - Score (RMSE): 0.0489
+2025-03-09 19:42:46,080 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:42:46,081 - logger - INFO - without init weights
+2025-03-09 19:42:46,081 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:42:53,921 - logger - INFO - Early stopping!
+2025-03-09 19:42:53,971 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:42:53,972 - logger - INFO - Score (Relative Error): 0.0479
+2025-03-09 19:42:53,972 - logger - INFO - Score (MAE): 0.0200
+2025-03-09 19:42:53,972 - logger - INFO - Score (RMSE): 0.0482
+2025-03-09 19:43:00,718 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:43:00,718 - logger - INFO - without init weights
+2025-03-09 19:43:00,719 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:43:08,138 - logger - INFO - Early stopping!
+2025-03-09 19:43:08,187 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:43:08,187 - logger - INFO - Score (Relative Error): 0.0501
+2025-03-09 19:43:08,187 - logger - INFO - Score (MAE): 0.0211
+2025-03-09 19:43:08,187 - logger - INFO - Score (RMSE): 0.0500
+2025-03-09 19:48:08,693 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:48:08,693 - logger - INFO - without init weights
+2025-03-09 19:48:08,693 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:48:13,503 - logger - INFO - Early stopping!
+2025-03-09 19:48:13,563 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:48:13,563 - logger - INFO - Score (Relative Error): 0.0562
+2025-03-09 19:48:13,564 - logger - INFO - Score (MAE): 0.0248
+2025-03-09 19:48:13,564 - logger - INFO - Score (RMSE): 0.0532
+2025-03-09 19:50:05,889 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:50:05,889 - logger - INFO - without init weights
+2025-03-09 19:50:05,889 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:50:08,974 - logger - INFO - Early stopping!
+2025-03-09 19:50:09,048 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 19:50:09,048 - logger - INFO - Score (Relative Error): 0.0188
+2025-03-09 19:50:09,048 - logger - INFO - Score (MAE): 0.0134
+2025-03-09 19:50:09,049 - logger - INFO - Score (RMSE): 0.0170
+2025-03-09 19:51:03,139 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:51:03,139 - logger - INFO - without init weights
+2025-03-09 19:51:03,147 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:52:07,754 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:52:07,756 - logger - INFO - without init weights
+2025-03-09 19:52:07,756 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 19:57:39,569 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 19:57:39,576 - logger - INFO - without init weights
+2025-03-09 19:57:39,577 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 20:00:25,317 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-09 20:00:25,317 - logger - INFO - without init weights
+2025-03-09 20:00:25,317 - logger - INFO - train on 36, 37, 38, test on 35
+2025-03-09 20:03:03,288 - logger - INFO - Early stopping!
+2025-03-09 20:03:33,087 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-09 20:03:33,088 - logger - INFO - Score (Relative Error): 0.0215
+2025-03-09 20:03:33,088 - logger - INFO - Score (MAE): 0.0138
+2025-03-09 20:03:33,089 - logger - INFO - Score (RMSE): 0.0158

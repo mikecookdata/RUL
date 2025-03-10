@@ -19,17 +19,11 @@ fn = "./datasets/CALCE/CALCE.csv"
 df = pd.read_csv(fn)
 
 
-spots_train_1 = df["capacity_CS2_36"].to_numpy().reshape(-1, 1)
-spots_train_2 = df["capacity_CS2_37"].to_numpy().reshape(-1, 1)
-spots_train_3 = df["capacity_CS2_38"].to_numpy().reshape(-1, 1)
-
+spots_train = df["capacity_CS2_36"].to_numpy().reshape(-1, 1)
 spots_test = df["capacity_CS2_35"].to_numpy().reshape(-1, 1)
 
 scaler = StandardScaler()
-spots_train_1 = scaler.fit_transform(spots_train_1).flatten().tolist()
-spots_train_2 = scaler.fit_transform(spots_train_2).flatten().tolist()
-spots_train_3 = scaler.fit_transform(spots_train_3).flatten().tolist()
-
+spots_train = scaler.fit_transform(spots_train).flatten().tolist()
 spots_test = scaler.transform(spots_test).flatten().tolist()
 
 # Sequence Data Preparation
@@ -45,11 +39,7 @@ def to_sequences(seq_size, obs):
         y.append(after_window)
     return torch.tensor(x, dtype=torch.float32).view(-1, seq_size, 1), torch.tensor(y, dtype=torch.float32).view(-1, 1)
 
-x_train_1, y_train_1 = to_sequences(SEQUENCE_SIZE, spots_train_1)
-x_train_2, y_train_2 = to_sequences(SEQUENCE_SIZE, spots_train_2)
-x_train_3, y_train_3 = to_sequences(SEQUENCE_SIZE, spots_train_3)
-x_train = torch.cat((x_train_1, x_train_2, x_train_3), dim=0)
-y_train = torch.cat((y_train_1, y_train_2, y_train_3), dim=0)
+x_train, y_train = to_sequences(SEQUENCE_SIZE, spots_train)
 x_test, y_test = to_sequences(SEQUENCE_SIZE, spots_test)
 
 # Setup data loaders for batch
