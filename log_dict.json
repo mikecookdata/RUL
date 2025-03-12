@@ -1,0 +1,42 @@
+[
+    {
+        "dataset": "CALCE",
+        "test": "capacity_CS2_35",
+        "train": "all other cells",
+        "SEQUENCE_SIZE": 32,
+        "Score (Relative Error)": 0.009491608079019146,
+        "Score (MAE)": 0.008186339046500757,
+        "Score (RMSE)": 0.0104607992756591,
+        "datetime": "2025-03-12 00:54:33"
+    },
+    {
+        "dataset": "CALCE",
+        "test": "capacity_CS2_36",
+        "train": "all other cells",
+        "SEQUENCE_SIZE": 32,
+        "Score (Relative Error)": 0.013029455720222082,
+        "Score (MAE)": 0.01017969352878463,
+        "Score (RMSE)": 0.01629741236232952,
+        "datetime": "2025-03-12 00:54:37"
+    },
+    {
+        "dataset": "CALCE",
+        "test": "capacity_CS2_37",
+        "train": "all other cells",
+        "SEQUENCE_SIZE": 32,
+        "Score (Relative Error)": 0.015022713790261285,
+        "Score (MAE)": 0.012306246640321244,
+        "Score (RMSE)": 0.0184723256495768,
+        "datetime": "2025-03-12 00:54:42"
+    },
+    {
+        "dataset": "CALCE",
+        "test": "capacity_CS2_38",
+        "train": "all other cells",
+        "SEQUENCE_SIZE": 32,
+        "Score (Relative Error)": 0.011085745577092682,
+        "Score (MAE)": 0.008944983727953569,
+        "Score (RMSE)": 0.016809283196240393,
+        "datetime": "2025-03-12 00:54:48"
+    }
+]

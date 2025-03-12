@@ -7,16 +7,27 @@ from sklearn.preprocessing import StandardScaler
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 import plotly.express as px
 from logger import logger
+from model import TransformerModel
+from utils import append_to_json_file, to_sequences
+import json
 has_mps = torch.backends.mps.is_built()
 # device = "cpu"
 device = "mps" if has_mps else "cuda" if torch.cuda.is_available() else "cpu"
+
+log_dict = {}
+
 logger.info(f"++++++  Using device: {device}   ++++++")
-logger.info("without init weights")
-logger.info("train on 36, 37, 38, test on 35")
+log_dict["device"] = device
+
 
 
 fn = "./datasets/CALCE/CALCE.csv"
 df = pd.read_csv(fn)
+
+log_dict["dataset"] = "CALCE"
+log_dict["test"] = "CS2_35"
+log_dict["train"] = "CS2_36, CS2_37, CS2_38"
+
 
 
 spots_train_1 = df["capacity_CS2_36"].to_numpy().reshape(-1, 1)
@@ -35,16 +46,6 @@ spots_test = scaler.transform(spots_test).flatten().tolist()
 # Sequence Data Preparation
 SEQUENCE_SIZE = 32
 
-def to_sequences(seq_size, obs):
-    x = []
-    y = []
-    for i in range(len(obs) - seq_size):
-        window = obs[i:(i + seq_size)]
-        after_window = obs[i + seq_size]
-        x.append(window)
-        y.append(after_window)
-    return torch.tensor(x, dtype=torch.float32).view(-1, seq_size, 1), torch.tensor(y, dtype=torch.float32).view(-1, 1)
-
 x_train_1, y_train_1 = to_sequences(SEQUENCE_SIZE, spots_train_1)
 x_train_2, y_train_2 = to_sequences(SEQUENCE_SIZE, spots_train_2)
 x_train_3, y_train_3 = to_sequences(SEQUENCE_SIZE, spots_train_3)
@@ -58,9 +59,9 @@ x_test, y_test = to_sequences(SEQUENCE_SIZE, spots_test)
 - x_train and y_train must have the same first dimension
 - this allows easy retrieval of (input, target) pairs during training
 - makes integration with DataLoader seamless
-'''
 
-'''DataLoader
+
+DataLoader
 - Batches data for efficienct training
 - Shuffles data befoe each epoch to prevent model from memorizing the order
 It randomly select batch(32) size from train_dataset and group them into a batch [32, (sequence)10, 1] for x_train and [32, 1] for y_train
@@ -74,50 +75,6 @@ test_dataset = TensorDataset(x_test, y_test)
 test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
 
 # Positional Encoding for Transformer
-class PositionalEncoding(nn.Module):
-    def __init__(self, d_model, dropout=0.1, max_len=5000):
-        super(PositionalEncoding, self).__init__()
-        self.dropout = nn.Dropout(p=dropout)
-
-        pe = torch.zeros(max_len, d_model)
-        position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
-        div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-np.log(10000.0) / d_model))
-        pe[:, 0::2] = torch.sin(position * div_term)
-        pe[:, 1::2] = torch.cos(position * div_term)
-        pe = pe.unsqueeze(0).transpose(0, 1)
-        self.register_buffer('pe', pe)
-
-    def forward(self, x):
-        x = x + self.pe[:x.size(0), :]
-        return self.dropout(x)
-    
-# Model definition using Transformer
-class TransformerModel(nn.Module):
-    def __init__(self, input_dim=1, d_model=64, nhead=4, num_layers=2, dropout=0.2):
-        super(TransformerModel, self).__init__()
-
-        self.encoder = nn.Linear(input_dim, d_model)
-        self.pos_encoder = PositionalEncoding(d_model, dropout)
-        encoder_layers = nn.TransformerEncoderLayer(d_model, nhead)
-        self.transformer_encoder = nn.TransformerEncoder(encoder_layers, num_layers)
-        self.decoder = nn.Linear(d_model, 1)
-    #     self.apply(self._init_weights) # what's the weights if not initialized?
-    #     # see link https://chatgpt.com/c/67ce20e9-7774-8009-85d9-dcce0feca042
-        
-    # def _init_weights(self, module):
-    #     if isinstance(module, nn.Linear):
-    #         torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
-    #         if module.bias is not None:
-    #             torch.nn.init.zeros_(module.bias)
-    #     elif isinstance(module, nn.Embedding):
-    #         torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
-
-    def forward(self, x):
-        x = self.encoder(x)
-        x = self.pos_encoder(x)
-        x = self.transformer_encoder(x)
-        x = self.decoder(x[:, -1, :])
-        return x
 
 model = TransformerModel().to(device)
 
@@ -200,7 +157,13 @@ mae = mean_absolute_error(actuals_inv, predictions_inv)
 re = np.mean(np.abs((actuals_inv - predictions_inv) / actuals_inv))  # Percentage form
 
 logger.info(f"SEQUENCE_SIZE: {SEQUENCE_SIZE}")
-
+log_dict["SEQUENCE_SIZE"] = SEQUENCE_SIZE
 logger.info(f"Score (Relative Error): {re:.4f}")
+log_dict["Score (Relative Error)"] = re
 logger.info(f"Score (MAE): {mae:.4f}")
+log_dict["Score (MAE)"] = mae
 logger.info(f"Score (RMSE): {rmse:.4f}")
+log_dict["Score (RMSE)"] = rmse
+
+# save log_dict
+append_to_json_file('log_dict.json', log_dict)

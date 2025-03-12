@@ -1,0 +1,57 @@
+2025-03-12 00:44:55,269 - logger - INFO - validation cell: capacity_CS2_35
+2025-03-12 00:44:59,073 - logger - INFO - Early stopping!
+2025-03-12 00:44:59,128 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-12 00:44:59,129 - logger - INFO - Score (Relative Error): 0.0099
+2025-03-12 00:44:59,129 - logger - INFO - Score (MAE): 0.0076
+2025-03-12 00:44:59,129 - logger - INFO - Score (RMSE): 0.0121
+2025-03-12 00:44:59,129 - logger - INFO - validation cell: capacity_CS2_36
+2025-03-12 00:45:02,526 - logger - INFO - Early stopping!
+2025-03-12 00:45:02,556 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-12 00:45:02,556 - logger - INFO - Score (Relative Error): 0.0179
+2025-03-12 00:45:02,558 - logger - INFO - Score (MAE): 0.0153
+2025-03-12 00:45:02,558 - logger - INFO - Score (RMSE): 0.0188
+2025-03-12 00:45:02,558 - logger - INFO - validation cell: capacity_CS2_37
+2025-03-12 00:45:09,117 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-12 00:45:12,734 - logger - INFO - Early stopping!
+2025-03-12 00:45:12,786 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-12 00:45:12,787 - logger - INFO - Score (Relative Error): 0.0502
+2025-03-12 00:45:12,787 - logger - INFO - Score (MAE): 0.0210
+2025-03-12 00:45:12,787 - logger - INFO - Score (RMSE): 0.0502
+2025-03-12 00:49:09,089 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-12 00:49:15,854 - logger - INFO - Early stopping!
+2025-03-12 00:49:15,908 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-12 00:49:15,908 - logger - INFO - Score (Relative Error): 0.0448
+2025-03-12 00:49:15,908 - logger - INFO - Score (MAE): 0.0187
+2025-03-12 00:49:15,909 - logger - INFO - Score (RMSE): 0.0456
+2025-03-12 00:49:46,190 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-12 00:49:49,890 - logger - INFO - Early stopping!
+2025-03-12 00:49:49,943 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-12 00:49:49,943 - logger - INFO - Score (Relative Error): 0.0494
+2025-03-12 00:49:49,943 - logger - INFO - Score (MAE): 0.0210
+2025-03-12 00:49:49,944 - logger - INFO - Score (RMSE): 0.0494
+2025-03-12 00:53:56,433 - logger - INFO - validation cell: capacity_CS2_35
+2025-03-12 00:54:08,934 - logger - INFO - validation cell: capacity_CS2_35
+2025-03-12 00:54:27,639 - logger - INFO - validation cell: capacity_CS2_35
+2025-03-12 00:54:33,373 - logger - INFO - Early stopping!
+2025-03-12 00:54:33,424 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-12 00:54:33,424 - logger - INFO - Score (Relative Error): 0.0095
+2025-03-12 00:54:33,424 - logger - INFO - Score (MAE): 0.0082
+2025-03-12 00:54:33,424 - logger - INFO - Score (RMSE): 0.0105
+2025-03-12 00:54:33,424 - logger - INFO - validation cell: capacity_CS2_36
+2025-03-12 00:54:37,170 - logger - INFO - Early stopping!
+2025-03-12 00:54:37,202 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-12 00:54:37,202 - logger - INFO - Score (Relative Error): 0.0130
+2025-03-12 00:54:37,203 - logger - INFO - Score (MAE): 0.0102
+2025-03-12 00:54:37,203 - logger - INFO - Score (RMSE): 0.0163
+2025-03-12 00:54:37,203 - logger - INFO - validation cell: capacity_CS2_37
+2025-03-12 00:54:42,830 - logger - INFO - Early stopping!
+2025-03-12 00:54:42,861 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-12 00:54:42,862 - logger - INFO - Score (Relative Error): 0.0150
+2025-03-12 00:54:42,862 - logger - INFO - Score (MAE): 0.0123
+2025-03-12 00:54:42,863 - logger - INFO - Score (RMSE): 0.0185
+2025-03-12 00:54:42,863 - logger - INFO - validation cell: capacity_CS2_38
+2025-03-12 00:54:48,783 - logger - INFO - Early stopping!
+2025-03-12 00:54:48,813 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-12 00:54:48,814 - logger - INFO - Score (Relative Error): 0.0111
+2025-03-12 00:54:48,814 - logger - INFO - Score (MAE): 0.0089
+2025-03-12 00:54:48,814 - logger - INFO - Score (RMSE): 0.0168
