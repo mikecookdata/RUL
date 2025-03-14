@@ -167,3 +167,41 @@ log_dict["Score (RMSE)"] = rmse
 
 # save log_dict
 append_to_json_file('log_dict.json', log_dict)
+
+import plotly.graph_objects as go
+
+# Create a time axis for plotting
+time_axis = np.arange(len(predictions_inv))
+
+# Create a Plotly figure
+fig = go.Figure()
+
+# Add actual values to the plot
+fig.add_trace(go.Scatter(
+    x=time_axis,
+    y=actuals_inv.flatten(),
+    mode='lines',
+    name='Actual Values',
+    line=dict(color='blue')
+))
+
+# Add predicted values to the plot
+fig.add_trace(go.Scatter(
+    x=time_axis,
+    y=predictions_inv.flatten(),
+    mode='lines',
+    name='Predicted Values',
+    line=dict(color='red', dash='dash')
+))
+
+# Update layout for better visualization
+fig.update_layout(
+    title="Actual vs Predicted Capacity",
+    xaxis_title="Time",
+    yaxis_title="Capacity",
+    legend_title="Legend",
+    template="plotly_white"
+)
+
+# Show the plot
+fig.show()

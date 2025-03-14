@@ -1,0 +1,6 @@
+2025-03-14 08:00:37,635 - logger - INFO - ++++++  Using device: cuda   ++++++
+2025-03-14 08:00:45,098 - logger - INFO - Early stopping!
+2025-03-14 08:00:45,174 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-14 08:00:45,174 - logger - INFO - Score (Relative Error): 0.0631
+2025-03-14 08:00:45,174 - logger - INFO - Score (MAE): 0.0280
+2025-03-14 08:00:45,174 - logger - INFO - Score (RMSE): 0.0587

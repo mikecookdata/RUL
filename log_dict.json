@@ -38,5 +38,16 @@
         "Score (MAE)": 0.008944983727953569,
         "Score (RMSE)": 0.016809283196240393,
         "datetime": "2025-03-12 00:54:48"
+    },
+    {
+        "device": "cuda",
+        "dataset": "CALCE",
+        "test": "CS2_35",
+        "train": "CS2_36, CS2_37, CS2_38",
+        "SEQUENCE_SIZE": 32,
+        "Score (Relative Error)": 0.06308164935622318,
+        "Score (MAE)": 0.027989618964947824,
+        "Score (RMSE)": 0.058728806581066516,
+        "datetime": "2025-03-14 08:00:45"
     }
 ]
