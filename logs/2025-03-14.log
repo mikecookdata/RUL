@@ -1,0 +1,7 @@
+2025-03-14 17:17:17,719 - logger - INFO - ++++++  Using device: mps   ++++++
+2025-03-14 17:17:41,305 - logger - INFO - Early stopping!
+2025-03-14 17:17:41,835 - logger - INFO - SEQUENCE_SIZE: 32
+2025-03-14 17:17:41,835 - logger - INFO - Score (Relative Error): 0.0469
+2025-03-14 17:17:41,835 - logger - INFO - Score (MAE): 0.0218
+2025-03-14 17:17:41,835 - logger - INFO - Score (RMSE): 0.0439
+2025-03-14 17:50:53,821 - logger - INFO - ++++++  Using device: mps   ++++++

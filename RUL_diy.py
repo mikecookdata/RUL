@@ -9,6 +9,7 @@ import plotly.express as px
 from logger import logger
 from model import TransformerModel
 from utils import append_to_json_file, to_sequences
+from icecream import ic
 import json
 has_mps = torch.backends.mps.is_built()
 # device = "cpu"
@@ -44,14 +45,19 @@ spots_train_3 = scaler.fit_transform(spots_train_3).flatten().tolist()
 spots_test = scaler.transform(spots_test).flatten().tolist()
 
 # Sequence Data Preparation
-SEQUENCE_SIZE = 32
+SEQUENCE_SIZE = 8
 
 x_train_1, y_train_1 = to_sequences(SEQUENCE_SIZE, spots_train_1)
 x_train_2, y_train_2 = to_sequences(SEQUENCE_SIZE, spots_train_2)
 x_train_3, y_train_3 = to_sequences(SEQUENCE_SIZE, spots_train_3)
+
 x_train = torch.cat((x_train_1, x_train_2, x_train_3), dim=0)
 y_train = torch.cat((y_train_1, y_train_2, y_train_3), dim=0)
 x_test, y_test = to_sequences(SEQUENCE_SIZE, spots_test)
+
+ic(x_train.shape, y_train.shape)
+ic(x_train[0])
+ic(y_train[0])
 
 # Setup data loaders for batch
 '''TensorDataset

@@ -38,5 +38,27 @@
         "Score (MAE)": 0.008944983727953569,
         "Score (RMSE)": 0.016809283196240393,
         "datetime": "2025-03-12 00:54:48"
+    },
+    {
+        "device": "mps",
+        "dataset": "CALCE",
+        "test": "CS2_35",
+        "train": "CS2_36, CS2_37, CS2_38",
+        "SEQUENCE_SIZE": 32,
+        "Score (Relative Error)": 0.04685471726445179,
+        "Score (MAE)": 0.021805298144137255,
+        "Score (RMSE)": 0.043919074069546614,
+        "datetime": "2025-03-14 17:17:41"
+    },
+    {
+        "device": "mps",
+        "dataset": "CALCE",
+        "test": "CS2_35",
+        "train": "CS2_36, CS2_37, CS2_38",
+        "SEQUENCE_SIZE": 8,
+        "Score (Relative Error)": 0.0489078528929672,
+        "Score (MAE)": 0.02229247973955469,
+        "Score (RMSE)": 0.04763959595235737,
+        "datetime": "2025-03-15 12:49:08"
     }
 ]
