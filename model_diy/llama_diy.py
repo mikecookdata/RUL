@@ -261,7 +261,6 @@ def generate_text(model, input_ids, max_length=50):
     # Decode output tokens to text
     return tokenizer.decode(input_ids[0], skip_special_tokens=True)
 
-
 from transformers import AutoConfig
 
 # Model config
@@ -285,7 +284,7 @@ model_config = {
 custom_model = LlamaForCausalLM(model_config)
 
 # Load pretrained weights
-pretrained_model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16).to(device)
+pretrained_model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float32).to(device)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 # Example usage
@@ -301,7 +300,7 @@ print(generate_text(pretrained_model, input_ids))
 
 # custom model
 custom_model.load_state_dict(pretrained_model.state_dict(), strict=True)
-custom_model.half()
+# custom_model.half()
 custom_model.to(device).eval()
 # print(custom_model._modules)
 print(generate_text(custom_model, input_ids))
